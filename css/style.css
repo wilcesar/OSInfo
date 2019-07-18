@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+/************************************************************************************************************************/
+/********									DIV GERAL E RESSET DO SISTEMA 										*********/
+/************************************************************************************************************************/
+*{margin:0; padding:0;}
+#geral{width:1024px; height:auto; margin:0 auto; border:1px solid #999; background:#666;}
+
+/************************************************************************************************************************/
+/********									DIV CABECALHO 														*********/
+/************************************************************************************************************************/
+#cabecalho{ width:1024px; height:200px; background:#333;}
+#logo_img{ padding:20px 20px; float:left;}
+#nome_sistema{ width:400px; height:150px; margin: 15px; float:left;}
+#nome_sistema img{ margin-top:20px;}
+
+/************************************************************************************************************************/
+/********									DIV MENU 				 									 		*********/
+/************************************************************************************************************************/
+
+/* ######### CSS classes applied to down and right arrow images ######### */
+#menu{float:left; background:#CCC;height:400px;}
+
+/************************************************************************************************************************/
+/********									DIV CONTEUDO 				 										*********/
+/************************************************************************************************************************/
+#conteudo{width:810px; height:auto; float:right;}
+/*#n_possui{ width:400px; height:400px; background:#CCC;  float:right;}
+#n_possui h4{font:20px Arial, Helvetica, sans-serif; display:block; margin:100px 0 0 145px;}*/
+#possui{width:400px; height:400px;background:#CCC; float:right;}
+#possui h4{ font:20px Arial, Helvetica, sans-serif; display:block; margin:100px 0 0 175px;}
+/************************************************************************************************************************/
+/********									  FORMULARIO 				 										*********/
+/************************************************************************************************************************/
+#form_n_possui{ margin:0 80px;}
+#form_n_possui em{color:#F00;}
+#form_n_possui .error{color:#F00;}
+#form_n_possui label{display:block; margin:5px 0;}
+#form_n_possui span{display:block; margin:5px 0; font:14px Arial, Helvetica, sans-serif; color:#666;}
+#form_n_possui input{width:300px; height:25px; border:1px solid #CCC;}
+#form_n_possui .btn_contato{width:100px; height:30px; margin:10px 0; font:16px Arial, Helvetica, sans-serif; color:#F90; font-weight:bold; cursor:pointer;}
+#form_n_possui .btn_contato:hover{background:#333; color:#FFF;}
+
+#form_login{ margin:0 80px;}
+#form_login em{color:#F00;}
+#form_login .error{color:#F00;}
+#form_login label{display:block; margin:5px 0;}
+#form_login span{display:block; margin:5px 0; font:14px Arial, Helvetica, sans-serif; color:#666;}
+#form_login input{width:300px; height:25px; border:1px solid #CCC;}
+#form_login .btn_contato{width:100px; height:30px; margin:10px 0; font:16px Arial, Helvetica, sans-serif; color:#F90; font-weight:bold; cursor:pointer;}
+#form_login .btn_contato:hover{background:#333; color:#FFF;}
+
+/************************************************************************************************************************/
+/********									DIV RODAPE         			 										*********/
+/************************************************************************************************************************/
+#rodape{width:1024px; height:550px; background:#333;}
